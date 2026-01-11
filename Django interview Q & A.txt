@@ -1,0 +1,280 @@
+How can you create a new record in the database using Django ORM?
+
+Select only one answer
+By calling the create() method on the model class.
+By instantiating a new object of the model class and calling the save() method.
+By executing raw SQL queries with the execute() method.
+By using the add() method of a related manager.
+
+How can you sort query results based on a specific field in Django ORM?
+
+Select only one answer
+By using the order_by() method on the query set.
+By using the sort_by() method on the query set.
+By executing a raw SQL query with the raw() method.
+By calling the order() method on the model class.
+
+How can you perform an inner join between two related models using Django ORM?
+
+Select only one answer
+By executing a raw SQL query with the raw() method.
+By using the prefetch_related() method on the query set.
+By using the select_related() method on the query set.
+By using the join() method on the model class.
+
+
+What does the annotate() method do in Django ORM?
+
+Select only one answer
+It is not a valid method in Django ORM.
+It enables you to perform aggregation functions like counting or summing.
+It allows you to add calculated fields to query results.
+It provides an interface for ordering query results.
+
+Which module is used to define API permissions in Django?
+
+Select only one answer
+django.permissions
+django.access_control
+django.auth
+django.permissions_framework
+
+What does the 'blank=True' option do in Django model fields?
+
+Select only one answer
+Allows null in the database
+Allows the field to be empty in forms
+Disables field validation
+Hides the field from admin
+
+
+Which keyword argument is used in ForeignKey to specify cascading delete?
+
+Select only one answer
+cascade_delete
+on_delete
+remove_on_delete
+delete_action
+
+
+Which method returns a single object or raises an exception if it doesn't exist?
+
+Select only one answer
+filter()
+all()
+get()
+first()
+
+
+Which file is required to treat a directory as a Python package in Django?
+
+Select only one answer
+main.py
+setup.py
+init.py
+package.py
+
+
+What is a slug in Django?
+
+Select only one answer
+Database key
+HTML element
+URL-friendly string
+Template tag
+
+What does Django use to store session data by default?
+
+Select only one answer
+Cookies
+Database
+File system
+Cache
+
+
+Which signal is emitted before saving a model instance?
+
+Select only one answer
+pre_save
+before_save
+save_call
+model_save
+
+
+Which method is called when a model object is saved in Django?
+
+Select only one answer
+store()
+insert()
+save()
+submit()
+
+
+Which class-based view is used to create new records?
+
+Select only one answer
+AddView
+CreateView
+InsertView
+NewView
+
+
+
+What is the default ordering of Django QuerySets?
+
+Select only one answer
+Descending by ID
+None
+Ascending by ID
+Alphabetically by name
+
+
+Where are Django migrations stored?
+
+Select only one answer
+In database directly
+In the models.py file
+In a migrations folder within each app
+In the project settings
+
+
+
+Which of the following is NOT a valid way to start the Django development server?
+
+Select only one answer
+python manage.py runserver
+python manage.py startserver
+python manage.py runserver 0.0.0.0:8000
+django-admin runserver
+
+
+Which file is automatically generated when you create a new Django project?
+
+Select only one answer
+views.py
+settings.py
+manage.py
+urls.py
+
+
+What is the purpose of the INSTALLED_APPS setting in Django?
+
+Select only one answer
+To list the apps that are enabled in the project
+To list the apps that are available for installation
+To list the apps that are part of the Django framework
+To list the apps that are external dependencies
+
+Which command is used to apply database migrations in Django?
+
+Select only one answer
+python manage.py migrate
+python manage.py migrate --apply
+python manage.py makemigrations
+python manage.py applymigrations
+
+
+How does Django ensure security in its framework?
+
+Select only one answer
+By using client-side scripting
+By requiring developers to write security code manually
+By providing built-in security features like CSRF protection
+By relying on external security plugins
+
+Which class do you inherit from to create a new model in Django?
+
+Select only one answer
+django.Model
+Model
+django.db.Model
+models.Model
+
+What is the role of the Meta class in a Django model?
+
+Select only one answer
+To define database fields
+To handle form validation
+To manage URL patterns
+To define model metadata
+
+
+
+What does the related_name attribute in a Django model field specify?
+
+Select only one answer
+The name of the related model
+The name of the reverse relation from the related model back to this one
+The type of the relationship
+The database column name
+
+
+
+What is the role of the ModelForm class in Django?
+
+Select only one answer
+To create a form based on a model
+To handle form submissions
+To create a model based on a form
+To manage form validation
+
+How do you specify a custom validation method for a form field in Django?
+
+Select only one answer
+By defining a clean_ method in the form class
+By overriding the validate method in the form class
+By defining a validate_ method in the form class
+By adding the validation logic in the model class
+
+Which method is used to check if a form is valid in Django?
+
+Select only one answer
+is_valid()
+validate()
+is_clean()
+clean()
+
+How do you add a custom validation rule for a field in a Django form?
+
+Select only one answer
+By defining a validate_ method in the form class
+By defining a custom validator function and adding it to the field's validators list
+By overriding the validate method in the form class
+By adding the validation logic in the model class
+
+
+Which Django decorator is used to restrict access to authenticated users only?
+
+Select only one answer
+@authenticated
+@login_required
+@auth_user
+@require_user
+
+
+What is the purpose of Django's User model?
+
+Select only one answer
+To define URL patterns
+To manage user authentication and permissions
+To handle form validation
+To manage static files
+To manage user module
+
+
+How can you add custom permissions to a Django model?
+
+Select only one answer
+By defining permissions in the model's Meta class
+By using the @permission_required decorator
+By adding permissions to the User model
+By overriding the save method of the model
+
+
+How do you run tests for a Django application?
+
+Select only one answer
+python manage.py runtests
+python manage.py run
+python manage.py test
+python manage.py testapp
